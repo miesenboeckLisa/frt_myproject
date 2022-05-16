@@ -1,0 +1,22 @@
+body{
+  font-family: Lato, Arial;
+}
+
+.image{
+  width: 350px;
+}
+
+
+.btn{
+  background-color: $primary;
+  color: white;
+  border: 1px solid darken($primary, 30%);
+  padding: 0.75em 1.2em;
+  @include border-radius(0.5em);
+}
+
+.btn-readMore{
+  @extend  .btn;
+  background-color: $readMore;
+  @include border-radius(0.2)
+}
