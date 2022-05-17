@@ -27,5 +27,6 @@ body{
 .btn-readMore{
   @extend  .btn;
   background-color: $readMore;
+  border: none;
   @include border-radius(0.2)
 }
