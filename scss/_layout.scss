@@ -1,6 +1,7 @@
 @include grid(2);
-@include grid(3);
+@include grid(4);
 
 @for $i from 2 through 4{
   @include grid($i)
 }
+
